@@ -1,0 +1,10 @@
+Prerequisites:
+-------------
+
+1. This script will only work on *nix operating systems, such as BSD, FreeBSD, Linux or OSX
+2. You must have the BEAST binaries available to your $PATH
+3. Put the beast-analyser.sh script in /usr/local/bin (anywhere else and it probably won't work)
+4. The script's name should be beast-analyser.sh and it should be executable by everyone:
+	$ chmod a+x /usr/local/bin/beast-analyser.sh
+5. Simply call the script by typing on the command line, in the directory where the BEAST output files are:
+	# beast-analyser.sh
